@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('home-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2c27;
+    padding: 15px 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-container input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.search-btn, .clear-btn {
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0c7b75;
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.search-btn:hover, .clear-btn:hover {
+    background-color: #095f5a;
+}
+
+.search-btn .search-icon-img, .clear-btn .clear-icon-img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+.hero {
+    position: relative;
+    text-align: left;
+    padding: 100px 50px;
+    color: white;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin-bottom: 50px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    border-left: 5px solid red;
+    padding-left: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 15px;
+    border-left: 5px solid red;
+    padding-left: 15px;
+}
+
+.book-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0c7b75;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.social-icons {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
