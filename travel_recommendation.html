@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page</title>
+    <title>Travel Smooth</title>
     <link rel="stylesheet" href="travel_recommendation.css" />
   </head>
   <body>
@@ -19,12 +19,16 @@
           <li><a href="#contact">Contact Us</a></li>
         </ul>
         <div class="search-container">
-          <input type="text" placeholder="Enter a destination or keyword" />
-          <button class="search-btn">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Enter a destination or keyword"
+          />
+          <button class="search-btn" id="search-btn">
             <img src="search-icon.png" alt="Search" class="search-icon-img" />
             Search
           </button>
-          <button class="clear-btn">
+          <button class="clear-btn" id="clear-btn">
             <img src="clear-icon.png" alt="Clear" class="clear-icon-img" />
             Clear
           </button>
@@ -86,8 +90,8 @@
           </div>
           <div class="team-member">
             <img src="profile-placeholder.png" alt="Celina Thomas" />
-            <h3>Celina Thomas</h3>
-            <p>Celina Thomas is responsible for managing us</p>
+            <h3>John Thomas</h3>
+            <p>John Thomas is responsible for managing us</p>
             <span class="role">Team Lead</span>
           </div>
           <div class="team-member">
@@ -98,6 +102,22 @@
           </div>
         </div>
       </section>
+      <section class="contact-us" id="contact">
+        <div class="contact-content">
+          <h1>CONTACT US</h1>
+          <p>Get in touch</p>
+        </div>
+        <form class="contact-form">
+          <input type="text" name="name" placeholder="Name" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea name="message" placeholder="Message" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <div class="results-overlay" id="results-container">
+        
+      </div>
     </main>
+    <script src="travel_recommendation.js"></script>
   </body>
 </html>
