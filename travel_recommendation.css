@@ -24,6 +24,7 @@ nav {
   color: white;
   font-size: 24px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .logo img {
@@ -267,7 +268,10 @@ nav {
   color: black;
   padding: 20px;
   border-radius: 8px;
-  max-width: 600px;
+  height: 250 px;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
   text-align: left;
   margin: 30px;
 }
@@ -283,6 +287,20 @@ nav {
 }
 
 .results-overlay img {
+  margin-top: 20px;
   height: 180px;
   width: 320px;
+}
+
+.time-container {
+  background-color: skyblue;
+  padding: 5px 15px;
+  border-radius: 25px;
+  font-size: 1.2em;
+  color: whitesmoke;
+  font-family: "Arial", sans-serif;
+}
+
+#current-time {
+  font-weight: bold;
 }

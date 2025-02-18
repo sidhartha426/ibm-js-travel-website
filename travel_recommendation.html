@@ -9,7 +9,7 @@
   <body>
     <header>
       <nav>
-        <div class="logo">
+        <div class="logo" id="logo">
           <img src="logo.png" alt="TravelSmooth Logo" />
           <span>TravelSmooth</span>
         </div>
@@ -48,7 +48,7 @@
             diverse cultures and landscapes, while pursuing the desired
             destination that captivates the heart and ignites a sense of wonder.
           </p>
-          <button class="book-btn">BOOK NOW</button>
+          <button class="book-btn" id="book-btn">BOOK NOW</button>
         </div>
         <div class="social-icons">
           <a href="https://x.com" target="_blank"
@@ -107,16 +107,14 @@
           <h1>CONTACT US</h1>
           <p>Get in touch</p>
         </div>
-        <form class="contact-form">
+        <form class="contact-form" id="contact-form">
           <input type="text" name="name" placeholder="Name" required />
           <input type="email" name="email" placeholder="Email" required />
-          <textarea name="message" placeholder="Message" required></textarea>
+          <textarea name="message" placeholder="Message" rows="5" cols="80" required></textarea>
           <button type="submit">Submit</button>
         </form>
       </section>
-      <div class="results-overlay" id="results-container">
-        
-      </div>
+      <div class="results-overlay" id="results-container"></div>
     </main>
     <script src="travel_recommendation.js"></script>
   </body>

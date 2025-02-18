@@ -7,12 +7,14 @@
         {
           "name": "Sydney, Australia",
           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Sydney_Opera_House_and_Harbour_Bridge_Dusk_%282%29_2019-06-21.jpg",
-          "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
+          "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge.",
+          "timeZone": "Australia/Sydney"
         },
         {
           "name": "Melbourne, Australia",
           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Melburnian_Skyline_b.jpg",
-          "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
+          "description": "A cultural hub famous for its art, food, and diverse neighborhoods.",
+          "timeZone": "Australia/Melbourne"
         }
       ]
     },
@@ -23,12 +25,14 @@
         {
           "name": "Tokyo, Japan",
           "imageUrl": "https://media.cntraveller.com/photos/6343df288d5d266e2e66f082/16:9/w_1920,c_limit/tokyoGettyImages-1031467664.jpeg",
-          "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
+          "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture.",
+          "timeZone": "Asia/Tokyo"
         },
         {
           "name": "Kyoto, Japan",
           "imageUrl": "https://www.neverendingvoyage.com/wp-content/uploads/2019/09/kyoto-japan-26.jpg",
-          "description": "Known for its historic temples, gardens, and traditional tea houses."
+          "description": "Known for its historic temples, gardens, and traditional tea houses.",
+          "timeZone": "Asia/Tokyo"
         }
       ]
     },
@@ -39,12 +43,14 @@
         {
           "name": "Rio de Janeiro, Brazil",
           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Cidade_Maravilhosa.jpg",
-          "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
+          "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks.",
+          "timeZone": "America/Sao_Paulo"
         },
         {
           "name": "São Paulo, Brazil",
           "imageUrl": "https://bpb-us-e1.wpmucdn.com/sites.lib.jmu.edu/dist/2/532/files/2021/06/CENU_Sa%CC%83o_Paulo_Brasil.jpeg",
-          "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
+          "description": "The financial hub with diverse culture, arts, and a vibrant nightlife.",
+          "timeZone": "America/Sao_Paulo"
         }
       ]
     },
@@ -55,17 +61,20 @@
         {
           "name": "New York, USA",
           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg",
-          "description": "A bustling metropolis known as the Big Apple, famous for Times Square, Broadway, and its iconic skyline."
+          "description": "A bustling metropolis known as the Big Apple, famous for Times Square, Broadway, and its iconic skyline.",
+          "timeZone": "America/New_York"
         },
         {
           "name": "Los Angeles, USA",
           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Los_Angeles_with_Mount_Baldy.jpg",
-          "description": "The entertainment capital of the world, home to Hollywood, beautiful beaches, and diverse cultural scenes."
+          "description": "The entertainment capital of the world, home to Hollywood, beautiful beaches, and diverse cultural scenes.",
+          "timeZone": "America/Los_Angeles"
         },
         {
           "name": "San Francisco, USA",
           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/San_Francisco_from_the_Marin_Headlands_in_August_2022.jpg",
-          "description": "Famous for the Golden Gate Bridge, its hilly landscape, and a rich history of tech innovation and culture."
+          "description": "Famous for the Golden Gate Bridge, its hilly landscape, and a rich history of tech innovation and culture.",
+          "timeZone": "America/Los_Angeles"
         }
       ]
     },
@@ -76,12 +85,14 @@
         {
           "name": "Toronto, Canada",
           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/CC_2022-06-18_193-Pano_%28cropped%29_01.jpg",
-          "description": "Canada's largest city, known for the CN Tower, multicultural neighborhoods, and vibrant arts scene."
+          "description": "Canada's largest city, known for the CN Tower, multicultural neighborhoods, and vibrant arts scene.",
+          "timeZone": "America/Toronto"
         },
         {
           "name": "Vancouver, Canada",
           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Concord_Pacific_Master_Plan_Area.jpg",
-          "description": "A stunning coastal city surrounded by mountains, known for its outdoor lifestyle, cultural diversity, and vibrant economy."
+          "description": "A stunning coastal city surrounded by mountains, known for its outdoor lifestyle, cultural diversity, and vibrant economy.",
+          "timeZone": "America/Vancouver"
         }
       ]
     }
@@ -91,13 +102,15 @@
       "id": 1,
       "name": "Angkor Wat, Cambodia",
       "imageUrl": "https://cdn.britannica.com/56/122156-050-F5B469C8/overview-complex-Angkor-Wat-Cambodia.jpg",
-      "description": "A UNESCO World Heritage site and the largest religious monument in the world."
+      "description": "A UNESCO World Heritage site and the largest religious monument in the world.",
+      "timeZone": "Asia/Phnom_Penh"
     },
     {
       "id": 2,
       "name": "Taj Mahal, India",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Taj_Mahal_%28Edited%29.jpeg",
-      "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
+      "description": "An iconic symbol of love and a masterpiece of Mughal architecture.",
+      "timeZone": "Asia/Calcutta"
     }
   ],
   "beaches": [
@@ -105,13 +118,15 @@
       "id": 1,
       "name": "Bora Bora, French Polynesia",
       "imageUrl": "https://www.tahititourisme.com/app/uploads/2023/08/vue-aerienne-du-lagon-de-bora-bora-a-stephane-mailion-photography.webp",
-      "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
+      "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows.",
+      "timeZone": "Pacific/Tahiti"
     },
     {
       "id": 2,
       "name": "Copacabana Beach, Brazil",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Praia_de_Copacabana_-_Rio_de_Janeiro%2C_Brasil.jpg",
-      "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
+      "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views.",
+      "timeZone": "America/Sao_Paulo"
     }
   ]
 }
