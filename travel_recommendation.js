@@ -19,7 +19,7 @@ keywordMap.set("beaches", "beaches");
 
 const keywordSet = new Set(["country", "countries", "temple", "temples", "beach", "beaches"]);
 
-const timeoutIds = [];
+const intervalIds = [];
 
 function formatTimeInTimeZone(timezone) {
   const options = {
@@ -63,8 +63,8 @@ function setHandlers() {
   const timeSpans = document.querySelectorAll(".time-container > span");
 
   for (const timeSpan of timeSpans) {
-    const timeoutId = setInterval(handleTimeSpan, 1000, timeSpan);
-    timeoutIds.push(timeoutId);
+    const intervalId = setInterval(handleTimeSpan, 1000, timeSpan);
+    intervalIds.push(intervalId);
   }
 
 }
@@ -76,8 +76,8 @@ function removeHandlers() {
     viewButton.removeEventListener("click", handleViewClick);
   }
 
-  while (timeoutIds.length > 0) {
-    clearInterval(timeoutIds.pop());
+  while (intervalIds.length > 0) {
+    clearInterval(intervalIds.pop());
   }
 
 }
